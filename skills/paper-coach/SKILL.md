@@ -5,7 +5,7 @@ license: MIT
 compatibility: Core workflow works in any Agent Skills-compatible harness that can access paper text. Optional local PDF page mapping uses Python 3.10+, Miyo, and Poppler pdftotext.
 metadata:
   author: nohairblingbling
-  version: "1.0.0"
+  version: "1.0.1"
   repository: https://github.com/nohairblingbling/paper-coach
   tags: research,papers,reading,tutoring,ai-ml
 ---
@@ -13,6 +13,12 @@ metadata:
 # Paper Coach
 
 Guide the user through a research paper instead of replacing the reading with a one-shot summary. Support any conversation language and any research domain; use AI/ML-aware questions when the paper is about machine learning or AI agents.
+
+## Origin and Attribution
+
+Paper Coach distills and adapts the multiple-pass paper-reading method taught by **Andrew Ng (吴恩达)** in [Stanford CS230 Lecture 8 — Career Advice / Reading Research Papers](https://www.youtube.com/watch?v=733m6qBH-jI). The lecture's paper-reading segment is approximately 2:25–29:40, with the single-paper multiple-pass discussion beginning around 6:25.
+
+The reading order and four quick-mastery questions come from that public lecture. Paper Coach's staged dialogue, one-answer-opportunity rule, local evidence boundary, multilingual behavior, and deep-reading state machine are independent extensions created for this project. Paper Coach is not affiliated with, sponsored by, or endorsed by Andrew Ng, Stanford University, Stanford Online, deeplearning.ai, or the CS230 course staff.
 
 ## When to Use
 

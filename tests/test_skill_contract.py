@@ -41,6 +41,16 @@ class SkillContractTests(unittest.TestCase):
             with self.subTest(question=question):
                 self.assertIn(question, self.text)
 
+    def test_registry_visible_attribution_is_prominent(self) -> None:
+        attribution = "## Origin and Attribution"
+        when_to_use = "## When to Use"
+        self.assertIn(attribution, self.text)
+        self.assertLess(self.text.index(attribution), self.text.index(when_to_use))
+        self.assertIn("Andrew Ng (吴恩达)", self.text)
+        self.assertIn("https://www.youtube.com/watch?v=733m6qBH-jI", self.text)
+        self.assertIn("independent extensions", self.text)
+        self.assertIn("not affiliated with, sponsored by, or endorsed by", self.text)
+
     def test_no_machine_local_path_in_skill_bundle(self) -> None:
         for path in (ROOT / "skills" / "paper-coach").rglob("*"):
             if path.is_file() and path.suffix.lower() in {".md", ".py", ".txt"}:

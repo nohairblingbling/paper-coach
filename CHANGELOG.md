@@ -4,6 +4,14 @@ All notable changes to Paper Coach are documented here.
 
 The project follows [Semantic Versioning](https://semver.org/).
 
+## [1.0.1] - 2026-08-24
+
+### Changed
+
+- Moved the Andrew Ng CS230 source attribution into the top of `SKILL.md` so registry pages such as skills.sh display it prominently.
+- Clarified which reading principles come from the lecture and which interaction rules are original Paper Coach extensions.
+- Added an explicit non-affiliation and non-endorsement statement to the registry-visible content.
+
 ## [1.0.0] - 2026-08-24
 
 ### Added
