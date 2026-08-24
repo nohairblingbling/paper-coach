@@ -8,7 +8,7 @@ This reference distills, in original wording, the paper-reading workflow taught 
 - **Paper-reading segment:** approximately 2:25–29:40
 - **Single-paper multiple-pass discussion:** approximately 6:25 onward
 
-Paper Coach is an independent open-source adaptation. It is not affiliated with, sponsored by, or endorsed by Andrew Ng, Stanford University, Stanford Online, deeplearning.ai, or the course staff.
+Paper Coach is an independent open-source adaptation.
 
 ## 1. Reading a Body of Literature
 

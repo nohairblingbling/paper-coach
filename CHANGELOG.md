@@ -4,6 +4,12 @@ All notable changes to Paper Coach are documented here.
 
 The project follows [Semantic Versioning](https://semver.org/).
 
+## [1.0.2] - 2026-08-24
+
+### Changed
+
+- Removed the non-affiliation, sponsorship, and endorsement disclaimer while retaining the Andrew Ng CS230 source attribution and the distinction between lecture-derived methodology and Paper Coach's original extensions.
+
 ## [1.0.1] - 2026-08-24
 
 ### Changed

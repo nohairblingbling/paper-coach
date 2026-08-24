@@ -47,4 +47,4 @@ uvx --from skills-ref agentskills validate skills/paper-coach
 
 ## Attribution
 
-Do not imply endorsement by Andrew Ng, Stanford, or deeplearning.ai. The project may cite the public CS230 lecture and summarize its method in original wording, but must not redistribute the transcript.
+The project may cite the public CS230 lecture and summarize its method in original wording, but must not redistribute the transcript.

@@ -49,7 +49,22 @@ class SkillContractTests(unittest.TestCase):
         self.assertIn("Andrew Ng (吴恩达)", self.text)
         self.assertIn("https://www.youtube.com/watch?v=733m6qBH-jI", self.text)
         self.assertIn("independent extensions", self.text)
-        self.assertIn("not affiliated with, sponsored by, or endorsed by", self.text)
+
+    def test_removed_disclaimer_is_absent_from_current_docs(self) -> None:
+        current_docs = [
+            SKILL,
+            ROOT / "README.md",
+            ROOT / "skills" / "paper-coach" / "references" / "andrew-ng-method.md",
+        ]
+        forbidden = [
+            "not affiliated with, sponsored by, or endorsed by",
+            "不存在隶属、赞助或背书关系",
+        ]
+        for path in current_docs:
+            text = path.read_text(encoding="utf-8")
+            for phrase in forbidden:
+                with self.subTest(path=path, phrase=phrase):
+                    self.assertNotIn(phrase, text)
 
     def test_no_machine_local_path_in_skill_bundle(self) -> None:
         for path in (ROOT / "skills" / "paper-coach").rglob("*"):

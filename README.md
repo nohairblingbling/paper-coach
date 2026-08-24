@@ -305,8 +305,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 The paper-reading method is distilled from Andrew Ng's CS230 lecture linked above. This repository contains an independent synthesis and interaction design; it does not reproduce the lecture transcript.
 
-Paper Coach is not affiliated with, sponsored by, or endorsed by Andrew Ng, Stanford University, Stanford Online, deeplearning.ai, or the CS230 course staff.
-
 ## License
 
 MIT. See [LICENSE](LICENSE).
@@ -593,8 +591,6 @@ uvx --from skills-ref agentskills validate skills/paper-coach
 ## 来源声明与免责声明
 
 论文阅读方法提炼自上方链接的 Andrew Ng CS230 公开讲座。本仓库是独立的总结和交互设计，不包含讲座转录文本。
-
-Paper Coach 与 Andrew Ng、Stanford University、Stanford Online、deeplearning.ai 或 CS230 课程团队不存在隶属、赞助或背书关系。
 
 ## 许可证
 

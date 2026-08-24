@@ -122,9 +122,6 @@ def main() -> int:
         for required_text in ("# English", "# 简体中文", VIDEO_URL, "npx skills@latest", "hermes skills install"):
             if required_text not in readme:
                 errors.append(f"README missing required content: {required_text}")
-        if "not affiliated" not in readme.lower() or "不存在隶属" not in readme:
-            warnings.append("README disclaimer may be incomplete")
-
     helper = SKILL_DIR / "scripts" / "build_paper_map.py"
     if helper.is_file():
         compile_result = subprocess.run(
