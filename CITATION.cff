@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: If you use Paper Coach in research or teaching, please cite this repository.
+title: Paper Coach
+abstract: An interactive Agent Skill for quick or deep evidence-grounded reading of research papers.
+type: software
+authors:
+  - given-names: Lorcan
+    alias: nohairblingbling
+repository-code: https://github.com/nohairblingbling/paper-coach
+url: https://github.com/nohairblingbling/paper-coach
+version: 1.0.0
+date-released: 2026-08-24
+license: MIT
+keywords:
+  - agent-skills
+  - research-papers
+  - paper-reading
+  - active-learning
+  - AI-agents
